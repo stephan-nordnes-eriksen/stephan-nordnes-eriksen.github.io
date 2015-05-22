@@ -6,35 +6,65 @@
 </description>
     <link>http://konjekt.com/</link>
     <atom:link href="http://konjekt.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 12:24:11 -0700</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 12:24:11 -0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 13:40:55 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 13:40:55 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>NSIEP, the crazy that is Stephan</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/nsiep_logo.png&quot; alt=&quot;NSIEP&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;A few years ago I sat down and thought something like: “I spend all this time customizing my desktop. I customize my editor. I customize so many aspects of my computer to get it the way I want, but the one thing I interact with ALL the time I don’t touch. Why is this? This querty keyboard really sucks. I mean, really. Why don’t I look into customizing this ONE thing that really matters?”&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;So during the summer of 2010 (I believe) I sat down and researched custom keyboards. I looked into colemark, I looked into Dvorak, Colman and so on. But then I found a great resource, I am not able to find this again, I am sorry, but it was a webpage which allowed you to enter a text corpus, and then it would count all the characters of your text and then generate a report of which characters you used the most often. This also included a keyboard heatmap! Great! What I then did was that I copied a WHOLE lot, actually, all the code I had ever written into this thing. This gave me an output telling me exactly which keys I used the most. Awesome! Let the customization begin.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I read up on what makes an efficient keyboard layout. It is all about the “travel distance” of the fingers or in other words, how far do you need to move your fingers over the keyboard to write a given text. It is measured from the “asdf jkl;” buttons as this is where your fingers normally rest. There is also the factor of which fingers most people are more comfortible using, namely the index- and middle-fingers. Thus the buttons that are used the most should be on those fingers.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/nsiep.png&quot; alt=&quot;NSIEP layout&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;So in my nsiep keyboard layout I have taken into account the travel distance, but I have also made sure that the most common hotkeys (&lt;code&gt;ctrl+c&lt;/code&gt;, &lt;code&gt;ctrl+v&lt;/code&gt;, &lt;code&gt;ctrl+s&lt;/code&gt;, &lt;code&gt;ctrl+z&lt;/code&gt;) all are executable with one hand, as well as being in roughly the same place as you normally find them. Special care is taken to the S and C, which is save and copy. Those are in the same place, and is also coincidentally positioned in the right position comparatively to their frequency of use based on my analysis. Great! I decided to move the V a bit away from C because I hate to miss-press those, as it always causes problems, but I still wanted them to be roughly where they were before. Thus the V is now at the &lt;code&gt;qwerty-B&lt;/code&gt; position. No more copy-paste mayhem, but still fairly similar hand movement.&lt;/p&gt;
+
+&lt;p&gt;Because much of the code I did at that time included semi-colons &lt;code&gt;;&lt;/code&gt;, that of course became it’s own button (which it is not on the normal norwegian qwerty layout). Both semi-colon &lt;code&gt;;&lt;/code&gt; and colon &lt;code&gt;:&lt;/code&gt; appeared to be used roughly the same amoundt, and it makes much sense to have them on the same button. They are now at the &lt;code&gt;qwerty-Q&lt;/code&gt; and &lt;code&gt;qwerty-shift-Q&lt;/code&gt; position respectively.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of minor tweaks to this keyboard layout, namely that I have moved the brackets and parenthesies closer to the left hand side for easier use (at least for me). We got &lt;code&gt;(&lt;/code&gt; and &lt;code&gt;)&lt;/code&gt; on &lt;code&gt;qwerty-shift-2&lt;/code&gt; and &lt;code&gt;qwerty-shift-3&lt;/code&gt; respectively, followed by &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; on &lt;code&gt;qwerty-shift-4&lt;/code&gt; and qwerty-shift-5. The square brackets &lt;code&gt;[&lt;/code&gt; and &lt;code&gt;]&lt;/code&gt; I moved over to the right hand side to &lt;code&gt;qwerty-shift-9&lt;/code&gt; and qwerty-shift-0. Now all my namespaces and method calls are easier to write (and this side note).&lt;/p&gt;
+
+&lt;p&gt;This is all nice and dandy. But I have a few bug-fixes in my keyboard layout. Yes, that is right. What is a bugfix to the keyboard layout you say? For instance, this one; caps-lock now also apply to the number buttons. If you write a lot of numbers while caps is on, then you might not like this, but if you are doing a lot of brackets and stuff then this might be nice. It is something that have bothered me the few times I actually use that caps-lock. I have talked to people who actually use the caps as a keyboard flipper, meaning they can write everything with their left hand when caps is on. This is a very novel thing and I might actually go with this some time in the future.&lt;/p&gt;
+
+&lt;p&gt;I have also added a all the greek letters to my keyboard layout. This is something that I have found later to cause problems is a small amount of cases where the shortcuts for doing these letters mess with keyboard shortcuts in some strange programs, but it happens very rarely. To type &lt;code&gt;π&lt;/code&gt; (pi) for instance, I simply do a qwerty-alt-P. For &lt;code&gt;Π&lt;/code&gt;, capital pi, I do qwerty-alt-shift-P. This is very neat when taking notes on math, writing in wolfram alpha or you simply want to make your program unsafe in any environment without proper UTF-8 handling. Fun little anti-hack-tool as well as so few manage to deal with this very well ;)&lt;/p&gt;
+
+&lt;p&gt;There is more to discuss about this keyboard layout, but I think I will leave it at this. It has significantly increased my independence of looking at the keyboard while typing. I usually didn’t need to do this before, but I happened to do so at occations. Now that will not work, so I have become much better adept at using my keyboard. I have implemented this keyboard on Windows and on Mac. I have yet to do this is linux as I usually only interact with linux over ssh from my mac. If anyone want to make this juicy layout available for linux I would love to see you do it and please, send it to me!&lt;/p&gt;
+
+&lt;p&gt;If you got to the end, wow, I like you! Give this layout a shot. It is strange, but hey, what isn’t? If you want to learn this, or any other keyboard layout, I suggest that you have a picture of the keyboard layout on screen, and you look at that and make sure to use the right fingers for the right buttons. If you want to learn a new layout, then don’t do the same mistakes you did when learning qwerty. Use all your fingers, yes even your pinkys, and you will soon master a new keyboard layout, and you will feel like a super-ninja-sith-jedi-lord-death-eather-auror! Yeah! NSIEP&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stephan&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;full-layout-overview&quot;&gt;Full layout overview:&lt;/h2&gt;
+
+&lt;h1 id=&quot;normal&quot;&gt;Normal&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/nsiep.png&quot; alt=&quot;NSIEP Layout Normal&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;shift&quot;&gt;Shift&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/nsiep_shift.png&quot; alt=&quot;NSIEP Layout Shift&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;caps&quot;&gt;Caps&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/nsiep_caps.png&quot; alt=&quot;NSIEP Layout Caps&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;alt&quot;&gt;Alt&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/nsiep_alt.png&quot; alt=&quot;NSIEP Layout Alt&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;alt--shift&quot;&gt;Alt + Shift&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/nsiep_alt_shift.png&quot; alt=&quot;NSIEP Layout Alt Shift&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 22 May 2015 05:14:17 -0700</pubDate>
-        <link>http://konjekt.com/jekyll/update/2015/05/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://konjekt.com/jekyll/update/2015/05/22/welcome-to-jekyll.html</guid>
+        <pubDate>Fri, 22 May 2015 05:45:17 -0700</pubDate>
+        <link>http://konjekt.com/keyboard/custom/tech/2015/05/22/nsiep.html</link>
+        <guid isPermaLink="true">http://konjekt.com/keyboard/custom/tech/2015/05/22/nsiep.html</guid>
         
         
-        <category>jekyll</category>
+        <category>keyboard</category>
         
-        <category>update</category>
+        <category>custom</category>
+        
+        <category>tech</category>
         
       </item>
     
