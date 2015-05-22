@@ -13,7 +13,7 @@ First off there is a bounch of software I usally use, so I had to get that insta
  - git
  - mac ports (for installing software like nmap)
  - rvm (for managing and installing versions of Ruby)
- - ruby (eg: rvm install 2.1)
+ - ruby (eg: `rvm install 2.1`)
  - keka (for a nice 7-zip ui)
  - mega sync (like dropbox, but better privacy and more free storage)
  - dropbox (I use it mainly to sync files from other people)
@@ -23,7 +23,7 @@ First off there is a bounch of software I usally use, so I had to get that insta
  - node.js
  - slack (chat like IRC, but with caching and much better branding)
  - jdk 8 and jre 6 (java, which I need)
- - nmap (install with "sudo port install nmap")
+ - nmap (install with `sudo port install nmap`)
  - spotify (i tend to only use soundcloud and mixcloud, so I don't know why I still use this.)
  - skype (the old school version of appear.in)
  - bearded spice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc.)
@@ -48,4 +48,7 @@ Then I went and found my lisence and copied that in to `"Help > Enter License"`.
 
 Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don't want these keys floating about on the interwebs, so don't email them about. You also don't want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like "ssh-keys.7z". At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a cd, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns. 
 
+Next up was moving over all of my code and my other stuff. This included firing up Mega Sync and Dropbox and letting them download all the stuff. I also went and pushed all my version controlled code onto an external drive and putting it on my new machine. I totally don't trust Mega or Dropbox to not f up the git files and all that. I did have version controled code on Dropbox once. I stopped doing that after dropbox did not agree with git. I have all of my code on github anyway, so I am not too afraid of losing it.
+
 Now I am basicly up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly enfuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with tetris.
+

@@ -4,6 +4,7 @@ title:  "NSIEP, the different keyboard layout, and the crazy that is Stephan"
 date:   2015-05-22 12:45:17
 categories: keyboard custom tech
 comments: True
+share: True
 ---
 
 ![NSIEP](/assets/nsiep_logo.png)
