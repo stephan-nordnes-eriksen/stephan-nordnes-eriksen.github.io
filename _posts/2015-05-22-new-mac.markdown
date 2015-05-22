@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "What I did when I got a new mac"
+date:   2015-05-22 15:24:17
+categories: tech mac install
+comments: True
+---
+
+Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be able to use the magic "Migration Assistant", however, this failed on me twice. Thus I ended up doing everything manually. This is a guide to what I did to set up my new mac environment from scratch.
+
+First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, **Google Chrome**. Then I did my favourite editor, **Sublime Text 3**. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.
+
+ - git
+ - mac ports (for installing software like nmap)
+ - rvm (for managing and installing versions of Ruby)
+ - ruby (eg: rvm install 2.1)
+ - keka (for a nice 7-zip ui)
+ - mega sync (like dropbox, but better privacy and more free storage)
+ - dropbox (I use it mainly to sync files from other people)
+ - iterm2 (very nice terminal with auto-complete, copy history and more)
+ - spectacle (keyboard shortcuts for managing windows)
+ - ukelele (for custom keyboard)
+ - node.js
+ - slack (chat like IRC, but with caching and much better branding)
+ - jdk 8 and jre 6 (java, which I need)
+ - nmap (install with "sudo port install nmap")
+ - spotify (i tend to only use soundcloud and mixcloud, so I don't know why I still use this.)
+ - skype (the old school version of appear.in)
+ - bearded spice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc.)
+ - caffeine (to keep the screen from turning off)
+ - homebrew (Similar to mac ports. For installing things like imagemagick)
+ - imagemagick (dependency for some of my server software)
+
+
+After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the "key repeat" to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the "delay until repeat" to the lowest. Can't we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.
+
+Next thing was getting mac to display every file and all extensions. That is easily done with one line in terminal: `defaults write com.apple.finder AppleShowAllFiles YES`. I do want to see everything that goes on, thank you.
+
+Now things are looking better. Next up is my trusted `.bashrc`. I copied that whole thing over. Good stuff. Of course a lot of that did not work at once, so I had to make sure all tools were installed. They are in the list above. Stuff like `nmap`, which I use to find my raspberries, was of course not installed at that time. I also had to update my `.bash_profile` by adding the line `source ~/.bashrc`, and `source ~/.profile`(out of habit). At the end works fine. After that I had to go in and change the name of my user, which I decided to shorten down for this machine. Now all my amazing short hand console scripts work again. Great.
+
+Next up is something that is exceptionally custom to me. So much that there is noone else that does this exact thing. Many might do similar stuff though. I installed my custom keyboard layout. This is not just some small tweak to qwerty, no. I have my own, fully custom, keyboard layout. Yes, with all the keys different and everything. Strange, yes! Read about it here! [Stephan's Strange NSIEP keyboard layout](/keyboard/custom/tech/2015/05/22/nsiep.html)
+
+After I installed this I found that one of my favourite mouse gestures wasn't enabled, so I went and enabled "App Expose" in the trackpad settings. Now I can see all my sublime windows again by doing a three finger swipe down.
+
+In sublime, of course everything is messed up. None of my plugins were there, none of my settings, everything gone (naturally). First I had to install `Package Manager` in sublime. To do this you simply go to [packagecontrol.io/installation](https://packagecontrol.io/installation), copy the script there and paste it into the sublime console, which you can open by `"View > Show Console"`.
+
+Then I went and found my lisence and copied that in to `"Help > Enter License"`. After that I got on my old mac and went to `"Sublime Text > Preferences > Browse Packages..."`. This opens a finder window. In there is a folder called `User`. 7-Zip that bad boy up and send it to the new mac. Simply replace everything in the equivalent `User` folder on the new mac. Now start/restart sublime. Package Control should see that there is a bounch of stuff not installed, and then install that. Now your every dream should come true, or at least your sublime text should be the exact same as you are used to. All your custom keyboard shortcuts, and all your beloved plugins. I have read that there MIGHT be some packages that does not install properly, so you might want to manually check that everything is there. Simply open the `Command pallette` (normally by pressing cmd-shift-p), and write `"pclp"` (or `"Package Control: List Packages"`), and press enter. A nice list of everything that is installed should be visible. 
+
+Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don't want these keys floating about on the interwebs, so don't email them about. You also don't want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like "ssh-keys.7z". At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a cd, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns. 
+
+Now I am basicly up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly enfuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with tetris.
