@@ -6,9 +6,69 @@
 </description>
     <link>http://konjekt.com/</link>
     <atom:link href="http://konjekt.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 14:42:52 -0700</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 14:42:52 -0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 15:33:18 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 15:33:18 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>What I did when I got a new mac</title>
+        <description>&lt;p&gt;Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be able to use the magic “Migration Assistant”, however, this failed on me twice. Thus I ended up doing everything manually. This is a guide to what I did to set up my new mac environment from scratch.&lt;/p&gt;
+
+&lt;p&gt;First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, &lt;strong&gt;Google Chrome&lt;/strong&gt;. Then I did my favourite editor, &lt;strong&gt;Sublime Text 3&lt;/strong&gt;. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git&lt;/li&gt;
+  &lt;li&gt;mac ports (for installing software like nmap)&lt;/li&gt;
+  &lt;li&gt;rvm (for managing and installing versions of Ruby)&lt;/li&gt;
+  &lt;li&gt;ruby (eg: rvm install 2.1)&lt;/li&gt;
+  &lt;li&gt;keka (for a nice 7-zip ui)&lt;/li&gt;
+  &lt;li&gt;mega sync (like dropbox, but better privacy and more free storage)&lt;/li&gt;
+  &lt;li&gt;dropbox (I use it mainly to sync files from other people)&lt;/li&gt;
+  &lt;li&gt;iterm2 (very nice terminal with auto-complete, copy history and more)&lt;/li&gt;
+  &lt;li&gt;spectacle (keyboard shortcuts for managing windows)&lt;/li&gt;
+  &lt;li&gt;ukelele (for custom keyboard)&lt;/li&gt;
+  &lt;li&gt;node.js&lt;/li&gt;
+  &lt;li&gt;slack (chat like IRC, but with caching and much better branding)&lt;/li&gt;
+  &lt;li&gt;jdk 8 and jre 6 (java, which I need)&lt;/li&gt;
+  &lt;li&gt;nmap (install with “sudo port install nmap”)&lt;/li&gt;
+  &lt;li&gt;spotify (i tend to only use soundcloud and mixcloud, so I don’t know why I still use this.)&lt;/li&gt;
+  &lt;li&gt;skype (the old school version of appear.in)&lt;/li&gt;
+  &lt;li&gt;bearded spice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc.)&lt;/li&gt;
+  &lt;li&gt;caffeine (to keep the screen from turning off)&lt;/li&gt;
+  &lt;li&gt;homebrew (Similar to mac ports. For installing things like imagemagick)&lt;/li&gt;
+  &lt;li&gt;imagemagick (dependency for some of my server software)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the “key repeat” to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the “delay until repeat” to the lowest. Can’t we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.&lt;/p&gt;
+
+&lt;p&gt;Next thing was getting mac to display every file and all extensions. That is easily done with one line in terminal: &lt;code&gt;defaults write com.apple.finder AppleShowAllFiles YES&lt;/code&gt;. I do want to see everything that goes on, thank you.&lt;/p&gt;
+
+&lt;p&gt;Now things are looking better. Next up is my trusted &lt;code&gt;.bashrc&lt;/code&gt;. I copied that whole thing over. Good stuff. Of course a lot of that did not work at once, so I had to make sure all tools were installed. They are in the list above. Stuff like &lt;code&gt;nmap&lt;/code&gt;, which I use to find my raspberries, was of course not installed at that time. I also had to update my &lt;code&gt;.bash_profile&lt;/code&gt; by adding the line &lt;code&gt;source ~/.bashrc&lt;/code&gt;, and &lt;code&gt;source ~/.profile&lt;/code&gt;(out of habit). At the end works fine. After that I had to go in and change the name of my user, which I decided to shorten down for this machine. Now all my amazing short hand console scripts work again. Great.&lt;/p&gt;
+
+&lt;p&gt;Next up is something that is exceptionally custom to me. So much that there is noone else that does this exact thing. Many might do similar stuff though. I installed my custom keyboard layout. This is not just some small tweak to qwerty, no. I have my own, fully custom, keyboard layout. Yes, with all the keys different and everything. Strange, yes! Read about it here! &lt;a href=&quot;/keyboard/custom/tech/2015/05/22/nsiep.html&quot;&gt;Stephan’s Strange NSIEP keyboard layout&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After I installed this I found that one of my favourite mouse gestures wasn’t enabled, so I went and enabled “App Expose” in the trackpad settings. Now I can see all my sublime windows again by doing a three finger swipe down.&lt;/p&gt;
+
+&lt;p&gt;In sublime, of course everything is messed up. None of my plugins were there, none of my settings, everything gone (naturally). First I had to install &lt;code&gt;Package Manager&lt;/code&gt; in sublime. To do this you simply go to &lt;a href=&quot;https://packagecontrol.io/installation&quot;&gt;packagecontrol.io/installation&lt;/a&gt;, copy the script there and paste it into the sublime console, which you can open by &lt;code&gt;&quot;View &amp;gt; Show Console&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then I went and found my lisence and copied that in to &lt;code&gt;&quot;Help &amp;gt; Enter License&quot;&lt;/code&gt;. After that I got on my old mac and went to &lt;code&gt;&quot;Sublime Text &amp;gt; Preferences &amp;gt; Browse Packages...&quot;&lt;/code&gt;. This opens a finder window. In there is a folder called &lt;code&gt;User&lt;/code&gt;. 7-Zip that bad boy up and send it to the new mac. Simply replace everything in the equivalent &lt;code&gt;User&lt;/code&gt; folder on the new mac. Now start/restart sublime. Package Control should see that there is a bounch of stuff not installed, and then install that. Now your every dream should come true, or at least your sublime text should be the exact same as you are used to. All your custom keyboard shortcuts, and all your beloved plugins. I have read that there MIGHT be some packages that does not install properly, so you might want to manually check that everything is there. Simply open the &lt;code&gt;Command pallette&lt;/code&gt; (normally by pressing cmd-shift-p), and write &lt;code&gt;&quot;pclp&quot;&lt;/code&gt; (or &lt;code&gt;&quot;Package Control: List Packages&quot;&lt;/code&gt;), and press enter. A nice list of everything that is installed should be visible.&lt;/p&gt;
+
+&lt;p&gt;Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don’t want these keys floating about on the interwebs, so don’t email them about. You also don’t want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like “ssh-keys.7z”. At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a cd, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns.&lt;/p&gt;
+
+&lt;p&gt;Now I am basicly up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly enfuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with tetris.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 May 2015 08:24:17 -0700</pubDate>
+        <link>http://konjekt.com/tech/mac/install/2015/05/22/new-mac.html</link>
+        <guid isPermaLink="true">http://konjekt.com/tech/mac/install/2015/05/22/new-mac.html</guid>
+        
+        
+        <category>tech</category>
+        
+        <category>mac</category>
+        
+        <category>install</category>
+        
+      </item>
     
       <item>
         <title>NSIEP, the different keyboard layout, and the crazy that is Stephan</title>
