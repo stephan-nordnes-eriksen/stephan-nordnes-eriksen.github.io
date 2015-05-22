@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NSIEP, the different keyboard layout,the crazy that is Stephan"
+title:  "NSIEP, the different keyboard layout, and the crazy that is Stephan"
 date:   2015-05-22 12:45:17
 categories: keyboard custom tech
 ---
