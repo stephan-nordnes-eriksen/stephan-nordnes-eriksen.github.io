@@ -4,10 +4,10 @@
     <title>Stephan&#39;s Little Blog</title>
     <description>Stephan&#39;s little blog about tech, life, and everything.
 </description>
-    <link>http://konjekt.com/</link>
-    <atom:link href="http://konjekt.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 15:33:18 -0700</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 15:33:18 -0700</lastBuildDate>
+    <link>http://stephan-nordnes-eriksen.github.io/</link>
+    <atom:link href="http://stephan-nordnes-eriksen.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 22 May 2015 16:03:58 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 16:03:58 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -17,26 +17,26 @@
 &lt;p&gt;First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, &lt;strong&gt;Google Chrome&lt;/strong&gt;. Then I did my favourite editor, &lt;strong&gt;Sublime Text 3&lt;/strong&gt;. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;git&lt;/li&gt;
-  &lt;li&gt;mac ports (for installing software like nmap)&lt;/li&gt;
-  &lt;li&gt;rvm (for managing and installing versions of Ruby)&lt;/li&gt;
-  &lt;li&gt;ruby (eg: rvm install 2.1)&lt;/li&gt;
-  &lt;li&gt;keka (for a nice 7-zip ui)&lt;/li&gt;
-  &lt;li&gt;mega sync (like dropbox, but better privacy and more free storage)&lt;/li&gt;
-  &lt;li&gt;dropbox (I use it mainly to sync files from other people)&lt;/li&gt;
-  &lt;li&gt;iterm2 (very nice terminal with auto-complete, copy history and more)&lt;/li&gt;
-  &lt;li&gt;spectacle (keyboard shortcuts for managing windows)&lt;/li&gt;
-  &lt;li&gt;ukelele (for custom keyboard)&lt;/li&gt;
-  &lt;li&gt;node.js&lt;/li&gt;
-  &lt;li&gt;slack (chat like IRC, but with caching and much better branding)&lt;/li&gt;
-  &lt;li&gt;jdk 8 and jre 6 (java, which I need)&lt;/li&gt;
-  &lt;li&gt;nmap (install with “sudo port install nmap”)&lt;/li&gt;
-  &lt;li&gt;spotify (i tend to only use soundcloud and mixcloud, so I don’t know why I still use this.)&lt;/li&gt;
-  &lt;li&gt;skype (the old school version of appear.in)&lt;/li&gt;
-  &lt;li&gt;bearded spice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc.)&lt;/li&gt;
-  &lt;li&gt;caffeine (to keep the screen from turning off)&lt;/li&gt;
-  &lt;li&gt;homebrew (Similar to mac ports. For installing things like imagemagick)&lt;/li&gt;
-  &lt;li&gt;imagemagick (dependency for some of my server software)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;git&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mac ports&lt;/strong&gt; (for installing software like nmap.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;rvm&lt;/strong&gt; for managing and installing versions of Ruby.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ruby&lt;/strong&gt; eg: &lt;code&gt;rvm install 2.1&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;keka&lt;/strong&gt; for a nice 7-zip ui.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mega&lt;/strong&gt; ync (like dropbox, but better privacy and more free storage.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dropbox&lt;/strong&gt; I use it mainly to sync files from other people.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iterm2&lt;/strong&gt; very nice terminal with auto-complete, copy history and more.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;spectacle&lt;/strong&gt; keyboard shortcuts for managing windows.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ukelele&lt;/strong&gt; for custom keyboard.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;node.js&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;slack&lt;/strong&gt; chat like IRC, but with caching and much better branding.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;jdk&lt;/strong&gt;  and jre 6 (java, which I need, mostly because of jave5.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nmap&lt;/strong&gt; install with &lt;code&gt;sudo port install nmap&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;spotify&lt;/strong&gt; I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify..&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;skype&lt;/strong&gt; the old school version of appear.in.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bearded&lt;/strong&gt; pice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc. &lt;a href=&quot;http://beardedspice.com/&quot;&gt;Try it out here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;caffeine&lt;/strong&gt; to keep the screen from turning off during long running tasks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;homebrew&lt;/strong&gt; Similar to mac ports. For installing things like imagemagick.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;imagemagick&lt;/strong&gt; dependency for some of my server software. Install with &lt;code&gt;brew install imagemagick&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the “key repeat” to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the “delay until repeat” to the lowest. Can’t we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.&lt;/p&gt;
@@ -55,11 +55,14 @@
 
 &lt;p&gt;Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don’t want these keys floating about on the interwebs, so don’t email them about. You also don’t want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like “ssh-keys.7z”. At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a cd, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns.&lt;/p&gt;
 
+&lt;p&gt;Next up was moving over all of my code and my other stuff. This included firing up Mega Sync and Dropbox and letting them download all the stuff. I also went and pushed all my version controlled code onto an external drive and putting it on my new machine. I totally don’t trust Mega or Dropbox to not f up the git files and all that. I did have version controled code on Dropbox once. I stopped doing that after dropbox did not agree with git. I have all of my code on github anyway, so I am not too afraid of losing it.&lt;/p&gt;
+
 &lt;p&gt;Now I am basicly up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly enfuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with tetris.&lt;/p&gt;
+
 </description>
         <pubDate>Fri, 22 May 2015 08:24:17 -0700</pubDate>
-        <link>http://konjekt.com/tech/mac/install/2015/05/22/new-mac.html</link>
-        <guid isPermaLink="true">http://konjekt.com/tech/mac/install/2015/05/22/new-mac.html</guid>
+        <link>http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html</link>
+        <guid isPermaLink="true">http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html</guid>
         
         
         <category>tech</category>
@@ -122,8 +125,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/nsiep_alt_shift.png&quot; alt=&quot;NSIEP Layout Alt Shift&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 May 2015 05:45:17 -0700</pubDate>
-        <link>http://konjekt.com/keyboard/custom/tech/2015/05/22/nsiep.html</link>
-        <guid isPermaLink="true">http://konjekt.com/keyboard/custom/tech/2015/05/22/nsiep.html</guid>
+        <link>http://stephan-nordnes-eriksen.github.io/keyboard/custom/tech/2015/05/22/nsiep.html</link>
+        <guid isPermaLink="true">http://stephan-nordnes-eriksen.github.io/keyboard/custom/tech/2015/05/22/nsiep.html</guid>
         
         
         <category>keyboard</category>

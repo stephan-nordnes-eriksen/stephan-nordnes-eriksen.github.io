@@ -4,32 +4,33 @@ title:  "What I did when I got a new mac"
 date:   2015-05-22 15:24:17
 categories: tech mac install
 comments: True
+share: True
 ---
 
 Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be able to use the magic "Migration Assistant", however, this failed on me twice. Thus I ended up doing everything manually. This is a guide to what I did to set up my new mac environment from scratch.
 
 First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, **Google Chrome**. Then I did my favourite editor, **Sublime Text 3**. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.
 
- - git
- - mac ports (for installing software like nmap)
- - rvm (for managing and installing versions of Ruby)
- - ruby (eg: `rvm install 2.1`)
- - keka (for a nice 7-zip ui)
- - mega sync (like dropbox, but better privacy and more free storage)
- - dropbox (I use it mainly to sync files from other people)
- - iterm2 (very nice terminal with auto-complete, copy history and more)
- - spectacle (keyboard shortcuts for managing windows)
- - ukelele (for custom keyboard)
- - node.js
- - slack (chat like IRC, but with caching and much better branding)
- - jdk 8 and jre 6 (java, which I need)
- - nmap (install with `sudo port install nmap`)
- - spotify (i tend to only use soundcloud and mixcloud, so I don't know why I still use this.)
- - skype (the old school version of appear.in)
- - bearded spice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc.)
- - caffeine (to keep the screen from turning off)
- - homebrew (Similar to mac ports. For installing things like imagemagick)
- - imagemagick (dependency for some of my server software)
+ - **git**
+ - **mac ports** (for installing software like nmap.
+ - **rvm** for managing and installing versions of Ruby.
+ - **ruby** eg: `rvm install 2.1`.
+ - **keka** for a nice 7-zip ui.
+ - **mega** ync (like dropbox, but better privacy and more free storage.
+ - **dropbox** I use it mainly to sync files from other people.
+ - **iterm2** very nice terminal with auto-complete, copy history and more.
+ - **spectacle** keyboard shortcuts for managing windows.
+ - **ukelele** for custom keyboard.
+ - **node.js**
+ - **slack** chat like IRC, but with caching and much better branding.
+ - **jdk**  and jre 6 (java, which I need, mostly because of jave5.
+ - **nmap** install with `sudo port install nmap`.
+ - **spotify** I tend to only use soundcloud and mixcloud, so I don't know why I still have spotify..
+ - **skype** the old school version of appear.in.
+ - **bearded** pice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc. [Try it out here](http://beardedspice.com/).
+ - **caffeine** to keep the screen from turning off during long running tasks.
+ - **homebrew** Similar to mac ports. For installing things like imagemagick.
+ - **imagemagick** dependency for some of my server software. Install with `brew install imagemagick`.
 
 
 After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the "key repeat" to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the "delay until repeat" to the lowest. Can't we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.

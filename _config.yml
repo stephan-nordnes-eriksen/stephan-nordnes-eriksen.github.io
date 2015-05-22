@@ -4,7 +4,7 @@ email: sne@konjekt.com
 description: > # this means to ignore newlines until "baseurl:"
   Stephan's little blog about tech, life, and everything.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://konjekt.com" # the base hostname & protocol for your site
+url: "http://stephan-nordnes-eriksen.github.io" # the base hostname & protocol for your site
 twitter_username: stephan_ne
 github_username:  stephan-nordnes-eriksen
 

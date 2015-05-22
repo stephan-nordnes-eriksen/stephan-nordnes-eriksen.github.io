@@ -309,6 +309,20 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.share-page {
+  text-align: center;
+  background: #42a6a8;
+  color: #e8e8e8;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 45px 0; }
+  .share-page a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px; }
+    .share-page a:hover {
+      border-bottom: 1px dashed #fff; }
+
 /**
  * Syntax highlighting styles
  */

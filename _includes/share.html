@@ -1,0 +1,21 @@
+{% if page.share %}
+<div class="share-page">
+    Liked this blog post? Share the love on &rarr; 
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>
+<p>Want more? Make sure to follow me on <a href="https://twitter.com/stephan_ne">twitter</a> and/or <a href="https://github.com/stephan-nordnes-eriksen">github</a></p>
+{% endif %}
+
+<!-- <div>
+	Want to get more? Follow me on <a href="https://twitter.com/stephan_ne">Twitter</a> or <iframe src="https://ghbtns.com/github-btn.html?user=stephan-nordnes-eriksen&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+</div> -->
+
+<!-- Liked this blog post?
+<a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=stephan_ne" 
+   target="_blank">
+  Share it on twitter</a> 
+or 
+<a href="https://twitter.com/stephan_ne">
+  follow me there</a>! -->

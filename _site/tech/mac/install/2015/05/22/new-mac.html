@@ -10,11 +10,11 @@
   <meta name="description" content="Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://konjekt.com/tech/mac/install/2015/05/22/new-mac.html">
-  <link rel="alternate" type="application/rss+xml" title="Stephan's Little Blog" href="http://konjekt.com/feed.xml" />
+  <link rel="canonical" href="http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html">
+  <link rel="alternate" type="application/rss+xml" title="Stephan's Little Blog" href="http://stephan-nordnes-eriksen.github.io/feed.xml" />
 </head>
 
-  
+
   <body>
 
     <header class="site-header">
@@ -67,26 +67,26 @@
 <p>First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, <strong>Google Chrome</strong>. Then I did my favourite editor, <strong>Sublime Text 3</strong>. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.</p>
 
 <ul>
-  <li>git</li>
-  <li>mac ports (for installing software like nmap)</li>
-  <li>rvm (for managing and installing versions of Ruby)</li>
-  <li>ruby (eg: rvm install 2.1)</li>
-  <li>keka (for a nice 7-zip ui)</li>
-  <li>mega sync (like dropbox, but better privacy and more free storage)</li>
-  <li>dropbox (I use it mainly to sync files from other people)</li>
-  <li>iterm2 (very nice terminal with auto-complete, copy history and more)</li>
-  <li>spectacle (keyboard shortcuts for managing windows)</li>
-  <li>ukelele (for custom keyboard)</li>
-  <li>node.js</li>
-  <li>slack (chat like IRC, but with caching and much better branding)</li>
-  <li>jdk 8 and jre 6 (java, which I need)</li>
-  <li>nmap (install with “sudo port install nmap”)</li>
-  <li>spotify (i tend to only use soundcloud and mixcloud, so I don’t know why I still use this.)</li>
-  <li>skype (the old school version of appear.in)</li>
-  <li>bearded spice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc.)</li>
-  <li>caffeine (to keep the screen from turning off)</li>
-  <li>homebrew (Similar to mac ports. For installing things like imagemagick)</li>
-  <li>imagemagick (dependency for some of my server software)</li>
+  <li><strong>git</strong></li>
+  <li><strong>mac ports</strong> (for installing software like nmap.</li>
+  <li><strong>rvm</strong> for managing and installing versions of Ruby.</li>
+  <li><strong>ruby</strong> eg: <code>rvm install 2.1</code>.</li>
+  <li><strong>keka</strong> for a nice 7-zip ui.</li>
+  <li><strong>mega</strong> ync (like dropbox, but better privacy and more free storage.</li>
+  <li><strong>dropbox</strong> I use it mainly to sync files from other people.</li>
+  <li><strong>iterm2</strong> very nice terminal with auto-complete, copy history and more.</li>
+  <li><strong>spectacle</strong> keyboard shortcuts for managing windows.</li>
+  <li><strong>ukelele</strong> for custom keyboard.</li>
+  <li><strong>node.js</strong></li>
+  <li><strong>slack</strong> chat like IRC, but with caching and much better branding.</li>
+  <li><strong>jdk</strong>  and jre 6 (java, which I need, mostly because of jave5.</li>
+  <li><strong>nmap</strong> install with <code>sudo port install nmap</code>.</li>
+  <li><strong>spotify</strong> I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify..</li>
+  <li><strong>skype</strong> the old school version of appear.in.</li>
+  <li><strong>bearded</strong> pice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc. <a href="http://beardedspice.com/">Try it out here</a>.</li>
+  <li><strong>caffeine</strong> to keep the screen from turning off during long running tasks.</li>
+  <li><strong>homebrew</strong> Similar to mac ports. For installing things like imagemagick.</li>
+  <li><strong>imagemagick</strong> dependency for some of my server software. Install with <code>brew install imagemagick</code>.</li>
 </ul>
 
 <p>After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the “key repeat” to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the “delay until repeat” to the lowest. Can’t we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.</p>
@@ -105,12 +105,36 @@
 
 <p>Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don’t want these keys floating about on the interwebs, so don’t email them about. You also don’t want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like “ssh-keys.7z”. At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a cd, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns.</p>
 
+<p>Next up was moving over all of my code and my other stuff. This included firing up Mega Sync and Dropbox and letting them download all the stuff. I also went and pushed all my version controlled code onto an external drive and putting it on my new machine. I totally don’t trust Mega or Dropbox to not f up the git files and all that. I did have version controled code on Dropbox once. I stopped doing that after dropbox did not agree with git. I have all of my code on github anyway, so I am not too afraid of losing it.</p>
+
 <p>Now I am basicly up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly enfuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with tetris.</p>
+
 
   </article>
 
 </div>
 
+        
+<div class="share-page">
+    Liked this blog post? Share the love on &rarr; 
+    <a href="https://twitter.com/intent/tweet?text=What I did when I got a new mac&url=http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html&via=stephan_ne&related=stephan_ne" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u=http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url=http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>
+<p>Want more? Make sure to follow me on <a href="https://twitter.com/stephan_ne">twitter</a> and/or <a href="https://github.com/stephan-nordnes-eriksen">github</a></p>
+
+
+<!-- <div>
+	Want to get more? Follow me on <a href="https://twitter.com/stephan_ne">Twitter</a> or <iframe src="https://ghbtns.com/github-btn.html?user=stephan-nordnes-eriksen&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+</div> -->
+
+<!-- Liked this blog post?
+<a href="https://twitter.com/intent/tweet?url=http://stephan-nordnes-eriksen.github.io/tech/mac/install/2015/05/22/new-mac.html&text=What I did when I got a new mac&via=stephan_ne" 
+   target="_blank">
+  Share it on twitter</a> 
+or 
+<a href="https://twitter.com/stephan_ne">
+  follow me there</a>! -->
         
 <!-- Add Disqus comments. -->
 <div id="disqus_thread"></div>
