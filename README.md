@@ -1,4 +1,7 @@
-Basic readme
+This is the repo for
+
+# Stephan's little blog
+
 
 
 ## License

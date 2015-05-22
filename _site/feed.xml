@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stephan&#39;s Little Blog</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Stephan&#39;s little blog about tech, life, and everything.
 </description>
     <link>http://konjekt.com/</link>
     <atom:link href="http://konjekt.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 13:40:55 -0700</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 13:40:55 -0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 14:42:52 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 14:42:52 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>NSIEP, the crazy that is Stephan</title>
+        <title>NSIEP, the different keyboard layout, and the crazy that is Stephan</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/nsiep_logo.png&quot; alt=&quot;NSIEP&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A few years ago I sat down and thought something like: “I spend all this time customizing my desktop. I customize my editor. I customize so many aspects of my computer to get it the way I want, but the one thing I interact with ALL the time I don’t touch. Why is this? This querty keyboard really sucks. I mean, really. Why don’t I look into customizing this ONE thing that really matters?”&lt;/p&gt;
@@ -20,7 +20,11 @@
 
 &lt;p&gt;I read up on what makes an efficient keyboard layout. It is all about the “travel distance” of the fingers or in other words, how far do you need to move your fingers over the keyboard to write a given text. It is measured from the “asdf jkl;” buttons as this is where your fingers normally rest. There is also the factor of which fingers most people are more comfortible using, namely the index- and middle-fingers. Thus the buttons that are used the most should be on those fingers.&lt;/p&gt;
 
+&lt;h1 id=&quot;the-nsiep-layout&quot;&gt;The NSIEP layout&lt;/h1&gt;
+
 &lt;p&gt;&lt;img src=&quot;/assets/nsiep.png&quot; alt=&quot;NSIEP layout&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;So in my nsiep keyboard layout I have taken into account the travel distance, but I have also made sure that the most common hotkeys (&lt;code&gt;ctrl+c&lt;/code&gt;, &lt;code&gt;ctrl+v&lt;/code&gt;, &lt;code&gt;ctrl+s&lt;/code&gt;, &lt;code&gt;ctrl+z&lt;/code&gt;) all are executable with one hand, as well as being in roughly the same place as you normally find them. Special care is taken to the S and C, which is save and copy. Those are in the same place, and is also coincidentally positioned in the right position comparatively to their frequency of use based on my analysis. Great! I decided to move the V a bit away from C because I hate to miss-press those, as it always causes problems, but I still wanted them to be roughly where they were before. Thus the V is now at the &lt;code&gt;qwerty-B&lt;/code&gt; position. No more copy-paste mayhem, but still fairly similar hand movement.&lt;/p&gt;
 
@@ -37,6 +41,8 @@
 &lt;p&gt;If you got to the end, wow, I like you! Give this layout a shot. It is strange, but hey, what isn’t? If you want to learn this, or any other keyboard layout, I suggest that you have a picture of the keyboard layout on screen, and you look at that and make sure to use the right fingers for the right buttons. If you want to learn a new layout, then don’t do the same mistakes you did when learning qwerty. Use all your fingers, yes even your pinkys, and you will soon master a new keyboard layout, and you will feel like a super-ninja-sith-jedi-lord-death-eather-auror! Yeah! NSIEP&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Stephan&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;full-layout-overview&quot;&gt;Full layout overview:&lt;/h2&gt;
 
