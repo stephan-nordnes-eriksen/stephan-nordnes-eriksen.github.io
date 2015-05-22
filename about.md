@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About
+title: About Stephan's blog
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is a blog where I occationally post stuff I am somehow interested in, mostly for my own reference, but maybe you will find it usefull as well!
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+This entire blog is hosted open source at [github](https://github.com/stephan-nordnes-eriksen/stephan-nordnes-eriksen.github.io), so if you find a typo, or other kind of mistake, please feel free to send a pull request!
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
