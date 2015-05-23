@@ -15,26 +15,26 @@ First off there is a bunch of software I usually use, so I had to get that insta
 | -------- | ----------- |
 | [**Google Chrome**](http://www.google.com/chrome/) | A fast, but memory hungry, web browser. |
 | [**Sublime Text 3**](http://www.sublimetext.com/3) | A fast and extendable text editor. |
-| [**git**](https://git-scm.com/) | A very good distributed version control system. |
-| [**mac ports**](https://www.macports.org/) | Tool for installing other software like nmap. |
-| [**rvm**](rvm.io) | Tool for managing and installing versions of Ruby. |
-| [**ruby**](ruby-lang.org) | Installed with rvm, eg. `rvm install 2.1`. |
-| [**keka**](http://www.kekaosx.com/en/) | Archive utility that supports 7-zip. Quite fast as well. |
-| [**MEGA sync**](mega.co.nz) | Service similar to dropbox, but better privacy and more free storage. |
-| [**dropbox**](dropbox.com) | I use it mainly to sync files from other people. |
-| [**iterm2**](https://www.iterm2.com/) | A very nice terminal with auto-complete, copy history and lots more more. |
-| [**spectacle**](http://spectacleapp.com/) | Small program that gives you keyboard shortcuts for managing your windows, like moving a window to left half of the screen. |
-| [**ukelele**](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) | Tool to manage and create custom keyboard layouts. [Read about why I se this here](/keyboard/custom/tech/2015/05/22/nsiep.html). |
-| [**node.js**](nodejs.org) | A javascript framework for making awesome stuff, like web servers. |
-| [**slack**](slack.com) | A chat system like IRC, but with caching and much better branding. We use this in [Konjekt](https://konjekt.com) for communication. |
-| [**jdk**](http://www.oracle.com/technetwork/java/javase/downloads/index.html) |  and jre 6 (java, which I need, mostly because of jave5. |
-| [**nmap**](https://nmap.org/) | install with `sudo port install nmap`. |
-| [**spotify**](spotify.com) | A music streamer. I tend to only use soundcloud and mixcloud, so I don't know why I still have spotify. |
-| [**skype**](skype.com) | The old school version of appear.in. |
-| [**bearded spice**](http://beardedspice.com/) | Awesome tool that lets me use media keys in soundcloud and mixcloud etc. If you are on a mac you got to [try it](http://beardedspice.com/). |
-| [**caffeine**](https://itunes.apple.com/us/app/caffeine/id411246225?mt=12) | A small program to keep the screen from turning off during long running tasks. |
-| [**homebrew**](brew.sh) | Similar to mac ports. For installing things like imagemagick. Install with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`. |
-| [**imagemagick**](http://www.imagemagick.org/script/index.php) | A CPU image processing library which is a dependency for some of my server software. Install with `brew install imagemagick`. |
+| [**Git**](https://git-scm.com/) | A very good distributed version control system. |
+| [**MacPorts**](https://www.macports.org/) | Tool for installing other software like nmap. |
+| [**RVM**](rvm.io) | Tool for managing and installing versions of Ruby. |
+| [**Ruby**](ruby-lang.org) | Installed with rvm, eg. `rvm install 2.1`. |
+| [**Keka**](http://www.kekaosx.com/en/) | Archive utility that supports 7-zip. Quite fast as well. |
+| [**MEGA Sync**](mega.co.nz) | Service similar to dropbox, but better privacy and more free storage. |
+| [**Dropbox**](dropbox.com) | I use it mainly to sync files from other people. |
+| [**iTerm2**](https://www.iterm2.com/) | A very nice terminal with auto-complete, copy history and lots more more. |
+| [**Spectacle**](http://spectacleapp.com/) | Small program that gives you keyboard shortcuts for managing your windows, like moving a window to left half of the screen. |
+| [**Ukelele**](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) | Tool to manage and create custom keyboard layouts. [Read about why I se this here](/keyboard/custom/tech/2015/05/22/nsiep.html). |
+| [**Node.js**](nodejs.org) | A javascript framework for making awesome stuff, like web servers. |
+| [**Slack**](slack.com) | A chat system like IRC, but with caching and much better branding. We use this in [Konjekt](https://konjekt.com) for communication. |
+| [**JDK(java)**](http://www.oracle.com/technetwork/java/javase/downloads/index.html) |  and jre 6 (java, which I need, mostly because of jave5. |
+| [**Nmap**](https://nmap.org/) | install with `sudo port install nmap`. |
+| [**Spotify**](spotify.com) | A music streamer. I tend to only use soundcloud and mixcloud, so I don't know why I still have spotify. |
+| [**Skype**](skype.com) | The old school version of appear.in. |
+| [**BeardedSpice**](http://beardedspice.com/) | Awesome tool that lets me use media keys in soundcloud and mixcloud etc. If you are on a mac you got to [try it](http://beardedspice.com/). |
+| [**Caffeine**](https://itunes.apple.com/us/app/caffeine/id411246225?mt=12) | A small program to keep the screen from turning off during long running tasks. |
+| [**Homebrew**](brew.sh) | Similar to mac ports. For installing things like imagemagick. Install with `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`. |
+| [**ImageMagick**](http://www.imagemagick.org/script/index.php) | A CPU image processing library which is a dependency for some of my server software. Install with `brew install imagemagick`. |
 
 
 After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the "key repeat" to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the "delay until repeat" to the lowest. Can't we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.
