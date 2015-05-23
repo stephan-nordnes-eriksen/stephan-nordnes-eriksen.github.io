@@ -35,7 +35,7 @@ There is more to discuss about this keyboard layout, but I think I will leave it
 
 If you got to the end, wow, I like you! Give this layout a shot. It is strange, but hey, what isn't? If you want to learn this, or any other keyboard layout, I suggest that you have a picture of the keyboard layout on screen, and you look at that and make sure to use the correct fingers for each button. If you want to learn a new layout, then don't do the same mistakes you did when learning qwerty. Use all your fingers, yes even your pinkys, and you will soon master a new keyboard layout, and you will feel like a super-ninja-sith-jedi-lord-death-eater-auror! Yeah! NSIEP
 
-You can download the layout from [the github repo]("https://github.com/stephan-nordnes-eriksen/nsiep").
+You can download the layout from [the github repo](https://github.com/stephan-nordnes-eriksen/nsiep).
 
 **Stephan**
 
