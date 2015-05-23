@@ -6,15 +6,15 @@
 </description>
     <link>http://stephan-nordnes-eriksen.github.io/</link>
     <atom:link href="http://stephan-nordnes-eriksen.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 17:07:25 -0700</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 17:07:25 -0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 17:18:32 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 17:18:32 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>What I did when I got a new mac</title>
         <description>&lt;p&gt;Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be able to use the magic “Migration Assistant”, however, this failed on me twice. Thus I ended up doing everything manually. This is a guide to what I did to set up my new mac environment from scratch.&lt;/p&gt;
 
-&lt;p&gt;First off there is a bunch of software I usually use, so I had to get that installed. I started off with my favourite browser, &lt;strong&gt;Google Chrome&lt;/strong&gt;. Then I did my favorite editor, &lt;strong&gt;Sublime Text 3&lt;/strong&gt;. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.&lt;/p&gt;
+&lt;p&gt;First off there is a bunch of software I usually use, so I had to get that installed. I started off with my favorite browser, &lt;strong&gt;Google Chrome&lt;/strong&gt;. Then I did my favorite editor, &lt;strong&gt;Sublime Text 3&lt;/strong&gt;. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -33,83 +33,83 @@
       &lt;td&gt;A fast and extendable text editor.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;&lt;strong&gt;git&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A very good distributed version control system.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.macports.org/&quot;&gt;&lt;strong&gt;mac ports&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.macports.org/&quot;&gt;&lt;strong&gt;MacPorts&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Tool for installing other software like nmap.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;rvm.io&quot;&gt;&lt;strong&gt;rvm&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;rvm.io&quot;&gt;&lt;strong&gt;RVM&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Tool for managing and installing versions of Ruby.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;ruby-lang.org&quot;&gt;&lt;strong&gt;ruby&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;ruby-lang.org&quot;&gt;&lt;strong&gt;Ruby&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Installed with rvm, eg. &lt;code&gt;rvm install 2.1&lt;/code&gt;.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.kekaosx.com/en/&quot;&gt;&lt;strong&gt;keka&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.kekaosx.com/en/&quot;&gt;&lt;strong&gt;Keka&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Archive utility that supports 7-zip. Quite fast as well.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;mega.co.nz&quot;&gt;&lt;strong&gt;MEGA sync&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;mega.co.nz&quot;&gt;&lt;strong&gt;MEGA Sync&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Service similar to dropbox, but better privacy and more free storage.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;dropbox.com&quot;&gt;&lt;strong&gt;dropbox&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;dropbox.com&quot;&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;I use it mainly to sync files from other people.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.iterm2.com/&quot;&gt;&lt;strong&gt;iterm2&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.iterm2.com/&quot;&gt;&lt;strong&gt;iTerm2&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A very nice terminal with auto-complete, copy history and lots more more.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://spectacleapp.com/&quot;&gt;&lt;strong&gt;spectacle&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://spectacleapp.com/&quot;&gt;&lt;strong&gt;Spectacle&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Small program that gives you keyboard shortcuts for managing your windows, like moving a window to left half of the screen.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;amp;id=ukelele&quot;&gt;&lt;strong&gt;ukelele&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;amp;id=ukelele&quot;&gt;&lt;strong&gt;Ukelele&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Tool to manage and create custom keyboard layouts. &lt;a href=&quot;/keyboard/custom/tech/2015/05/22/nsiep.html&quot;&gt;Read about why I se this here&lt;/a&gt;.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;nodejs.org&quot;&gt;&lt;strong&gt;node.js&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;nodejs.org&quot;&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A javascript framework for making awesome stuff, like web servers.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;slack.com&quot;&gt;&lt;strong&gt;slack&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;slack.com&quot;&gt;&lt;strong&gt;Slack&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A chat system like IRC, but with caching and much better branding. We use this in &lt;a href=&quot;https://konjekt.com&quot;&gt;Konjekt&lt;/a&gt; for communication.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;&lt;strong&gt;jdk&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;&lt;strong&gt;JDK(java)&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;and jre 6 (java, which I need, mostly because of jave5.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://nmap.org/&quot;&gt;&lt;strong&gt;nmap&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nmap.org/&quot;&gt;&lt;strong&gt;Nmap&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;install with &lt;code&gt;sudo port install nmap&lt;/code&gt;.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;spotify.com&quot;&gt;&lt;strong&gt;spotify&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;spotify.com&quot;&gt;&lt;strong&gt;Spotify&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A music streamer. I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;skype.com&quot;&gt;&lt;strong&gt;skype&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;skype.com&quot;&gt;&lt;strong&gt;Skype&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;The old school version of appear.in.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://beardedspice.com/&quot;&gt;&lt;strong&gt;bearded spice&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://beardedspice.com/&quot;&gt;&lt;strong&gt;BeardedSpice&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Awesome tool that lets me use media keys in soundcloud and mixcloud etc. If you are on a mac you got to &lt;a href=&quot;http://beardedspice.com/&quot;&gt;try it&lt;/a&gt;.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/caffeine/id411246225?mt=12&quot;&gt;&lt;strong&gt;caffeine&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/caffeine/id411246225?mt=12&quot;&gt;&lt;strong&gt;Caffeine&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A small program to keep the screen from turning off during long running tasks.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;brew.sh&quot;&gt;&lt;strong&gt;homebrew&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;brew.sh&quot;&gt;&lt;strong&gt;Homebrew&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Similar to mac ports. For installing things like imagemagick. Install with &lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;.&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;&lt;strong&gt;imagemagick&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;&lt;strong&gt;ImageMagick&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A CPU image processing library which is a dependency for some of my server software. Install with &lt;code&gt;brew install imagemagick&lt;/code&gt;.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -121,19 +121,19 @@
 
 &lt;p&gt;Now things are looking better. Next up is my trusted &lt;code&gt;.bashrc&lt;/code&gt;. I copied that whole thing over. Good stuff. Of course a lot of that did not work at once, so I had to make sure all tools were installed. They are in the list above. Stuff like &lt;code&gt;nmap&lt;/code&gt;, which I use to find my raspberries, was of course not installed at that time. I also had to update my &lt;code&gt;.bash_profile&lt;/code&gt; by adding the line &lt;code&gt;source ~/.bashrc&lt;/code&gt;, and &lt;code&gt;source ~/.profile&lt;/code&gt;(out of habit). At the end works fine. After that I had to go in and change the name of my user, which I decided to shorten down for this machine. Now all my amazing short hand console scripts work again. Great.&lt;/p&gt;
 
-&lt;p&gt;Next up is something that is exceptionally custom to me. So much that there is noone else that does this exact thing. Many might do similar stuff though. I installed my custom keyboard layout. This is not just some small tweak to qwerty, no. I have my own, fully custom, keyboard layout. Yes, with all the keys different and everything. Strange, yes! Read about it here! &lt;a href=&quot;/keyboard/custom/tech/2015/05/22/nsiep.html&quot;&gt;Stephan’s Strange NSIEP keyboard layout&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next up is something that is exceptionally custom to me. So much that there is no one else that does this exact thing. Many might do similar stuff though. I installed my custom keyboard layout. This is not just some small tweak to qwerty, no. I have my own, fully custom, keyboard layout. Yes, with all the keys different and everything. Strange, yes! Read about it here! &lt;a href=&quot;/keyboard/custom/tech/2015/05/22/nsiep.html&quot;&gt;Stephan’s Strange NSIEP keyboard layout&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;After I installed this I found that one of my favourite mouse gestures wasn’t enabled, so I went and enabled “App Expose” in the trackpad settings. Now I can see all my sublime windows again by doing a three finger swipe down.&lt;/p&gt;
+&lt;p&gt;After I installed this I found that one of my favorite mouse gestures wasn’t enabled, so I went and enabled “App Expose” in the trackpad settings. Now I can see all my sublime windows again by doing a three finger swipe down.&lt;/p&gt;
 
-&lt;p&gt;In sublime, of course everything is messed up. None of my plugins were there, none of my settings, everything gone (naturally). First I had to install &lt;code&gt;Package Manager&lt;/code&gt; in sublime. To do this you simply go to &lt;a href=&quot;https://packagecontrol.io/installation&quot;&gt;packagecontrol.io/installation&lt;/a&gt;, copy the script there and paste it into the sublime console, which you can open by &lt;code&gt;&quot;View &amp;gt; Show Console&quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In sublime, of course everything is messed up. None of my plug-ins were there, none of my settings, everything gone (naturally). First I had to install &lt;code&gt;Package Manager&lt;/code&gt; in sublime. To do this you simply go to &lt;a href=&quot;https://packagecontrol.io/installation&quot;&gt;packagecontrol.io/installation&lt;/a&gt;, copy the script there and paste it into the sublime console, which you can open by &lt;code&gt;&quot;View &amp;gt; Show Console&quot;&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Then I went and found my lisence and copied that in to &lt;code&gt;&quot;Help &amp;gt; Enter License&quot;&lt;/code&gt;. After that I got on my old mac and went to &lt;code&gt;&quot;Sublime Text &amp;gt; Preferences &amp;gt; Browse Packages...&quot;&lt;/code&gt;. This opens a finder window. In there is a folder called &lt;code&gt;User&lt;/code&gt;. 7-Zip that bad boy up and send it to the new mac. Simply replace everything in the equivalent &lt;code&gt;User&lt;/code&gt; folder on the new mac. Now start/restart sublime. Package Control should see that there is a bounch of stuff not installed, and then install that. Now your every dream should come true, or at least your sublime text should be the exact same as you are used to. All your custom keyboard shortcuts, and all your beloved plugins. I have read that there MIGHT be some packages that does not install properly, so you might want to manually check that everything is there. Simply open the &lt;code&gt;Command pallette&lt;/code&gt; (normally by pressing cmd-shift-p), and write &lt;code&gt;&quot;pclp&quot;&lt;/code&gt; (or &lt;code&gt;&quot;Package Control: List Packages&quot;&lt;/code&gt;), and press enter. A nice list of everything that is installed should be visible.&lt;/p&gt;
+&lt;p&gt;Then I went and found my license and copied that in to &lt;code&gt;&quot;Help &amp;gt; Enter License&quot;&lt;/code&gt;. After that I got on my old mac and went to &lt;code&gt;&quot;Sublime Text &amp;gt; Preferences &amp;gt; Browse Packages...&quot;&lt;/code&gt;. This opens a finder window. In there is a folder called &lt;code&gt;User&lt;/code&gt;. 7-Zip that bad boy up and send it to the new mac. Simply replace everything in the equivalent &lt;code&gt;User&lt;/code&gt; folder on the new mac. Now start/restart sublime. Package Control should see that there is a bunch of stuff not installed, and then install that. Now your every dream should come true, or at least your sublime text should be the exact same as you are used to. All your custom keyboard shortcuts, and all your beloved plug-ins. I have read that there MIGHT be some packages that does not install properly, so you might want to manually check that everything is there. Simply open the &lt;code&gt;Command palette&lt;/code&gt; (normally by pressing &lt;code&gt;cmd+shift+P&lt;/code&gt;), and write &lt;code&gt;&quot;pclp&quot;&lt;/code&gt; (or &lt;code&gt;&quot;Package Control: List Packages&quot;&lt;/code&gt;), and press enter. A nice list of everything that is installed should be visible.&lt;/p&gt;
 
-&lt;p&gt;Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don’t want these keys floating about on the interwebs, so don’t email them about. You also don’t want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like “ssh-keys.7z”. At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a cd, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns.&lt;/p&gt;
+&lt;p&gt;Now we have come far! Next up is our extremely important keys, such as ssh-keys. I want to stress that I am no security expert, so take everything in this section with a grain of salt. This part is where you should think a little about how you do things. You don’t want these keys floating about on the interwebs, so don’t email them about. You also don’t want to have them sticking around on a usb-key, and so on. My best bet is to actually 7-zip these badboys into an archive with an insane password. Again, I am no security expert, but that should be safe enough. Also, you probably should NOT call it anything like “ssh-keys.7z”. At this point you could PROBABLY safely send it over airdrop or by scp. It could even be safe to send over the internet, but I would not recommend doing this as you never know what kind of weaknesses there might be in the encryption strategies chosen by your compression-provider. If you want to go old-school you can rip these on a CD, or even tape (yeah!), and break + burn them after you are done with them. That would be awesome for everything except the environment, so please consider not doing that. So yeah. I moved these keys over using a safe, and secret, method probably involving a series of unexpected right turns.&lt;/p&gt;
 
-&lt;p&gt;Next up was moving over all of my code and my other stuff. This included firing up Mega Sync and Dropbox and letting them download all the stuff. I also went and pushed all my version controlled code onto an external drive and putting it on my new machine. I totally don’t trust Mega or Dropbox to not f up the git files and all that. I did have version controled code on Dropbox once. I stopped doing that after dropbox did not agree with git. I have all of my code on github anyway, so I am not too afraid of losing it.&lt;/p&gt;
+&lt;p&gt;Next up was moving over all of my code and my other stuff. This included firing up Mega Sync and Dropbox and letting them download all the stuff. I also went and pushed all my version controlled code onto an external drive and putting it on my new machine. I totally don’t trust Mega or Dropbox to not f up the git files and all that. I did have version controlled code on Dropbox once. I stopped doing that after dropbox did not agree with git. I have all of my code on GitHub anyway, so I am not too afraid of losing it.&lt;/p&gt;
 
-&lt;p&gt;Now I am basicly up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly enfuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with tetris.&lt;/p&gt;
+&lt;p&gt;Now I am basically up and running with my new machine, and I am very happy about it! If you found this somewhat amusing, or highly infuriating, please comment on this somehow! I would love to hear your opinion, such as why vim is better than sublime, and then someone else saying why emacs is so much better than vim, for instance because it comes shipped with Tetris.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 22 May 2015 08:24:17 -0700</pubDate>
@@ -157,7 +157,7 @@
 
 &lt;p&gt;So during the summer of 2010 (I believe) I sat down and researched custom keyboards. I looked into colemark, I looked into Dvorak, Colman and so on. But then I found a great resource, I am not able to find this again, I am sorry, but it was a webpage which allowed you to enter a text corpus, and then it would count all the characters of your text and then generate a report of which characters you used the most often. This also included a keyboard heatmap! Great! What I then did was that I copied a WHOLE lot, actually, all the code I had ever written into this thing. This gave me an output telling me exactly which keys I used the most. Awesome! Let the customization begin.&lt;/p&gt;
 
-&lt;p&gt;I read up on what makes an efficient keyboard layout. It is all about the “travel distance” of the fingers or in other words, how far do you need to move your fingers over the keyboard to write a given text. It is measured from the “asdf jkl;” buttons as this is where your fingers normally rest. There is also the factor of which fingers most people are more comfortible using, namely the index- and middle-fingers. Thus the buttons that are used the most should be on those fingers.&lt;/p&gt;
+&lt;p&gt;I read up on what makes an efficient keyboard layout. It is all about the “travel distance” of the fingers or in other words, how far do you need to move your fingers over the keyboard to write a given text. It is measured from the “asdf jkl;” buttons as this is where your fingers normally rest. There is also the factor of which fingers most people are more comfortable using, namely the index- and middle-fingers. Thus the buttons that are used the most should be on those fingers.&lt;/p&gt;
 
 &lt;h1 id=&quot;the-nsiep-layout&quot;&gt;The NSIEP layout&lt;/h1&gt;
 
@@ -167,15 +167,15 @@
 
 &lt;p&gt;So in my nsiep keyboard layout I have taken into account the travel distance, but I have also made sure that the most common hotkeys (&lt;code&gt;ctrl+c&lt;/code&gt;, &lt;code&gt;ctrl+v&lt;/code&gt;, &lt;code&gt;ctrl+s&lt;/code&gt;, &lt;code&gt;ctrl+z&lt;/code&gt;) all are executable with one hand, as well as being in roughly the same place as you normally find them. Special care is taken to the S and C, which is save and copy. Those are in the same place, and is also coincidentally positioned in the right position comparatively to their frequency of use based on my analysis. Great! I decided to move the V a bit away from C because I hate to miss-press those, as it always causes problems, but I still wanted them to be roughly where they were before. Thus the V is now at the &lt;code&gt;qwerty-B&lt;/code&gt; position. No more copy-paste mayhem, but still fairly similar hand movement.&lt;/p&gt;
 
-&lt;p&gt;Because much of the code I did at that time included semi-colons &lt;code&gt;;&lt;/code&gt;, that of course became it’s own button (which it is not on the normal norwegian qwerty layout). Both semi-colon &lt;code&gt;;&lt;/code&gt; and colon &lt;code&gt;:&lt;/code&gt; appeared to be used roughly the same amoundt, and it makes much sense to have them on the same button. They are now at the &lt;code&gt;qwerty-Q&lt;/code&gt; and &lt;code&gt;qwerty-shift-Q&lt;/code&gt; position respectively.&lt;/p&gt;
+&lt;p&gt;Because much of the code I did at that time included semi-colons &lt;code&gt;;&lt;/code&gt;, that of course became it’s own button (which it is not on the normal Norwegian qwerty layout). Both semi-colon &lt;code&gt;;&lt;/code&gt; and colon &lt;code&gt;:&lt;/code&gt; appeared to be used roughly the same amount, and it makes much sense to have them on the same button. They are now at the &lt;code&gt;qwerty-Q&lt;/code&gt; and &lt;code&gt;qwerty-shift-Q&lt;/code&gt; position respectively.&lt;/p&gt;
 
-&lt;p&gt;There are a lot of minor tweaks to this keyboard layout, namely that I have moved the brackets and parenthesies closer to the left hand side for easier use (at least for me). We got &lt;code&gt;(&lt;/code&gt; and &lt;code&gt;)&lt;/code&gt; on &lt;code&gt;qwerty-shift-2&lt;/code&gt; and &lt;code&gt;qwerty-shift-3&lt;/code&gt; respectively, followed by &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; on &lt;code&gt;qwerty-shift-4&lt;/code&gt; and qwerty-shift-5. The square brackets &lt;code&gt;[&lt;/code&gt; and &lt;code&gt;]&lt;/code&gt; I moved over to the right hand side to &lt;code&gt;qwerty-shift-9&lt;/code&gt; and qwerty-shift-0. Now all my namespaces and method calls are easier to write (and this side note).&lt;/p&gt;
+&lt;p&gt;There are a lot of minor tweaks to this keyboard layout, namely that I have moved the brackets and parenthesis closer to the left hand side for easier use (at least for me). We got &lt;code&gt;(&lt;/code&gt; and &lt;code&gt;)&lt;/code&gt; on &lt;code&gt;qwerty-shift-2&lt;/code&gt; and &lt;code&gt;qwerty-shift-3&lt;/code&gt; respectively, followed by &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; on &lt;code&gt;qwerty-shift-4&lt;/code&gt; and qwerty-shift-5. The square brackets &lt;code&gt;[&lt;/code&gt; and &lt;code&gt;]&lt;/code&gt; I moved over to the right hand side to &lt;code&gt;qwerty-shift-9&lt;/code&gt; and qwerty-shift-0. Now all my namespaces and method calls are easier to write (and this side note).&lt;/p&gt;
 
 &lt;p&gt;This is all nice and dandy. But I have a few bug-fixes in my keyboard layout. Yes, that is right. What is a bugfix to the keyboard layout you say? For instance, this one; caps-lock now also apply to the number buttons. If you write a lot of numbers while caps is on, then you might not like this, but if you are doing a lot of brackets and stuff then this might be nice. It is something that have bothered me the few times I actually use that caps-lock. I have talked to people who actually use the caps as a keyboard flipper, meaning they can write everything with their left hand when caps is on. This is a very novel thing and I might actually go with this some time in the future.&lt;/p&gt;
 
-&lt;p&gt;I have also added a all the greek letters to my keyboard layout. This is something that I have found later to cause problems is a small amount of cases where the shortcuts for doing these letters mess with keyboard shortcuts in some strange programs, but it happens very rarely. To type &lt;code&gt;π&lt;/code&gt; (pi) for instance, I simply do a qwerty-alt-P. For &lt;code&gt;Π&lt;/code&gt;, capital pi, I do qwerty-alt-shift-P. This is very neat when taking notes on math, writing in wolfram alpha or you simply want to make your program unsafe in any environment without proper UTF-8 handling. Fun little anti-hack-tool as well as so few manage to deal with this very well ;)&lt;/p&gt;
+&lt;p&gt;I have also added a all the Greek letters to my keyboard layout. This is something that I have found later to cause problems is a small amount of cases where the shortcuts for doing these letters mess with keyboard shortcuts in some strange programs, but it happens very rarely. To type &lt;code&gt;π&lt;/code&gt; (pi) for instance, I simply do a qwerty-alt-P. For &lt;code&gt;Π&lt;/code&gt;, capital pi, I do qwerty-alt-shift-P. This is very neat when taking notes on math, writing in wolfram alpha or you simply want to make your program unsafe in any environment without proper UTF-8 handling. Fun little anti-hack-tool as well as so few manage to deal with this very well ;)&lt;/p&gt;
 
-&lt;p&gt;There is more to discuss about this keyboard layout, but I think I will leave it at this. It has significantly increased my independence of looking at the keyboard while typing. I usually didn’t need to do this before, but I happened to do so at occations. Now that will not work, so I have become much better adept at using my keyboard. I have implemented this keyboard on Windows and on Mac. I have yet to do this is linux as I usually only interact with linux over ssh from my mac. If anyone want to make this juicy layout available for linux I would love to see you do it and please, send it to me!&lt;/p&gt;
+&lt;p&gt;There is more to discuss about this keyboard layout, but I think I will leave it at this. It has significantly increased my independence of looking at the keyboard while typing. I usually didn’t need to do this before, but I happened to do so at occasions. Now that will not work, so I have become much better adept at using my keyboard. I have implemented this keyboard on Windows and on Mac. I have yet to do this is Linux as I usually only interact with Linux over ssh from my mac. If anyone want to make this juicy layout available for Linux I would love to see you do it and please, send it to me!&lt;/p&gt;
 
 &lt;p&gt;If you got to the end, wow, I like you! Give this layout a shot. It is strange, but hey, what isn’t? If you want to learn this, or any other keyboard layout, I suggest that you have a picture of the keyboard layout on screen, and you look at that and make sure to use the right fingers for the right buttons. If you want to learn a new layout, then don’t do the same mistakes you did when learning qwerty. Use all your fingers, yes even your pinkys, and you will soon master a new keyboard layout, and you will feel like a super-ninja-sith-jedi-lord-death-eather-auror! Yeah! NSIEP&lt;/p&gt;
 
