@@ -64,30 +64,106 @@
   <article class="post-content">
     <p>Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be able to use the magic “Migration Assistant”, however, this failed on me twice. Thus I ended up doing everything manually. This is a guide to what I did to set up my new mac environment from scratch.</p>
 
-<p>First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, <strong>Google Chrome</strong>. Then I did my favourite editor, <strong>Sublime Text 3</strong>. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.</p>
+<p>First off there is a bunch of software I usually use, so I had to get that installed. I started off with my favourite browser, <strong>Google Chrome</strong>. Then I did my favorite editor, <strong>Sublime Text 3</strong>. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.</p>
 
-<ul>
-  <li><strong>git</strong></li>
-  <li><strong>mac ports</strong> (for installing software like nmap.</li>
-  <li><strong>rvm</strong> for managing and installing versions of Ruby.</li>
-  <li><strong>ruby</strong> eg: <code>rvm install 2.1</code>.</li>
-  <li><strong>keka</strong> for a nice 7-zip ui.</li>
-  <li><strong>mega</strong> ync (like dropbox, but better privacy and more free storage.</li>
-  <li><strong>dropbox</strong> I use it mainly to sync files from other people.</li>
-  <li><strong>iterm2</strong> very nice terminal with auto-complete, copy history and more.</li>
-  <li><strong>spectacle</strong> keyboard shortcuts for managing windows.</li>
-  <li><strong>ukelele</strong> for custom keyboard.</li>
-  <li><strong>node.js</strong></li>
-  <li><strong>slack</strong> chat like IRC, but with caching and much better branding.</li>
-  <li><strong>jdk</strong>  and jre 6 (java, which I need, mostly because of jave5.</li>
-  <li><strong>nmap</strong> install with <code>sudo port install nmap</code>.</li>
-  <li><strong>spotify</strong> I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify..</li>
-  <li><strong>skype</strong> the old school version of appear.in.</li>
-  <li><strong>bearded</strong> pice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc. <a href="http://beardedspice.com/">Try it out here</a>.</li>
-  <li><strong>caffeine</strong> to keep the screen from turning off during long running tasks.</li>
-  <li><strong>homebrew</strong> Similar to mac ports. For installing things like imagemagick.</li>
-  <li><strong>imagemagick</strong> dependency for some of my server software. Install with <code>brew install imagemagick</code>.</li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Software</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://www.google.com/chrome/"><strong>Google Chrome</strong></a></td>
+      <td>A fast, but memory hungry, web browser.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.sublimetext.com/3"><strong>Sublime Text 3</strong></a></td>
+      <td>A fast and extendable text editor.</td>
+    </tr>
+    <tr>
+      <td><a href="https://git-scm.com/"><strong>git</strong></a></td>
+      <td>A very good distributed version control system.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.macports.org/"><strong>mac ports</strong></a></td>
+      <td>Tool for installing other software like nmap.</td>
+    </tr>
+    <tr>
+      <td><a href="rvm.io"><strong>rvm</strong></a></td>
+      <td>Tool for managing and installing versions of Ruby.</td>
+    </tr>
+    <tr>
+      <td><a href="ruby-lang.org"><strong>ruby</strong></a></td>
+      <td>Installed with rvm, eg. <code>rvm install 2.1</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.kekaosx.com/en/"><strong>keka</strong></a></td>
+      <td>Archive utility that supports 7-zip. Quite fast as well.</td>
+    </tr>
+    <tr>
+      <td><a href="mega.co.nz"><strong>MEGA sync</strong></a></td>
+      <td>Service similar to dropbox, but better privacy and more free storage.</td>
+    </tr>
+    <tr>
+      <td><a href="dropbox.com"><strong>dropbox</strong></a></td>
+      <td>I use it mainly to sync files from other people.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.iterm2.com/"><strong>iterm2</strong></a></td>
+      <td>A very nice terminal with auto-complete, copy history and lots more more.</td>
+    </tr>
+    <tr>
+      <td><a href="http://spectacleapp.com/"><strong>spectacle</strong></a></td>
+      <td>Small program that gives you keyboard shortcuts for managing your windows, like moving a window to left half of the screen.</td>
+    </tr>
+    <tr>
+      <td><a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=ukelele"><strong>ukelele</strong></a></td>
+      <td>Tool to manage and create custom keyboard layouts. <a href="/keyboard/custom/tech/2015/05/22/nsiep.html">Read about why I se this here</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="nodejs.org"><strong>node.js</strong></a></td>
+      <td>A javascript framework for making awesome stuff, like web servers.</td>
+    </tr>
+    <tr>
+      <td><a href="slack.com"><strong>slack</strong></a></td>
+      <td>A chat system like IRC, but with caching and much better branding. We use this in <a href="https://konjekt.com">Konjekt</a> for communication.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"><strong>jdk</strong></a></td>
+      <td>and jre 6 (java, which I need, mostly because of jave5.</td>
+    </tr>
+    <tr>
+      <td><a href="https://nmap.org/"><strong>nmap</strong></a></td>
+      <td>install with <code>sudo port install nmap</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="spotify.com"><strong>spotify</strong></a></td>
+      <td>A music streamer. I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify.</td>
+    </tr>
+    <tr>
+      <td><a href="skype.com"><strong>skype</strong></a></td>
+      <td>The old school version of appear.in.</td>
+    </tr>
+    <tr>
+      <td><a href="http://beardedspice.com/"><strong>bearded spice</strong></a></td>
+      <td>Awesome tool that lets me use media keys in soundcloud and mixcloud etc. If you are on a mac you got to <a href="http://beardedspice.com/">try it</a>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://itunes.apple.com/us/app/caffeine/id411246225?mt=12"><strong>caffeine</strong></a></td>
+      <td>A small program to keep the screen from turning off during long running tasks.</td>
+    </tr>
+    <tr>
+      <td><a href="brew.sh"><strong>homebrew</strong></a></td>
+      <td>Similar to mac ports. For installing things like imagemagick. Install with <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.imagemagick.org/script/index.php"><strong>imagemagick</strong></a></td>
+      <td>A CPU image processing library which is a dependency for some of my server software. Install with <code>brew install imagemagick</code>.</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the “key repeat” to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the “delay until repeat” to the lowest. Can’t we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.</p>
 

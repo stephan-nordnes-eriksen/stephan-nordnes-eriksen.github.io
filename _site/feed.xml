@@ -6,38 +6,114 @@
 </description>
     <link>http://stephan-nordnes-eriksen.github.io/</link>
     <atom:link href="http://stephan-nordnes-eriksen.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2015 16:03:58 -0700</pubDate>
-    <lastBuildDate>Fri, 22 May 2015 16:03:58 -0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2015 17:07:25 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2015 17:07:25 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>What I did when I got a new mac</title>
         <description>&lt;p&gt;Every time I upgrade some of my equipment it always seem to take some time setting it up, and I lose a bit of time. When I got a new mac I thought I might be able to use the magic “Migration Assistant”, however, this failed on me twice. Thus I ended up doing everything manually. This is a guide to what I did to set up my new mac environment from scratch.&lt;/p&gt;
 
-&lt;p&gt;First off there is a bounch of software I usally use, so I had to get that installed. I started off with my favourite browser, &lt;strong&gt;Google Chrome&lt;/strong&gt;. Then I did my favourite editor, &lt;strong&gt;Sublime Text 3&lt;/strong&gt;. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.&lt;/p&gt;
+&lt;p&gt;First off there is a bunch of software I usually use, so I had to get that installed. I started off with my favourite browser, &lt;strong&gt;Google Chrome&lt;/strong&gt;. Then I did my favorite editor, &lt;strong&gt;Sublime Text 3&lt;/strong&gt;. Now the rest of my setup process would be much more enjoyable. Chrome and Sublime was followed by all the software in the below list. It is all in an approximate order of installation. The process is mostly: Search for the software, download it, then install it with the install wizard. There are notes for the ones that are different.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;git&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;mac ports&lt;/strong&gt; (for installing software like nmap.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;rvm&lt;/strong&gt; for managing and installing versions of Ruby.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ruby&lt;/strong&gt; eg: &lt;code&gt;rvm install 2.1&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;keka&lt;/strong&gt; for a nice 7-zip ui.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;mega&lt;/strong&gt; ync (like dropbox, but better privacy and more free storage.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;dropbox&lt;/strong&gt; I use it mainly to sync files from other people.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;iterm2&lt;/strong&gt; very nice terminal with auto-complete, copy history and more.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;spectacle&lt;/strong&gt; keyboard shortcuts for managing windows.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ukelele&lt;/strong&gt; for custom keyboard.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;node.js&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;slack&lt;/strong&gt; chat like IRC, but with caching and much better branding.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;jdk&lt;/strong&gt;  and jre 6 (java, which I need, mostly because of jave5.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;nmap&lt;/strong&gt; install with &lt;code&gt;sudo port install nmap&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;spotify&lt;/strong&gt; I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify..&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;skype&lt;/strong&gt; the old school version of appear.in.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;bearded&lt;/strong&gt; pice (Awesome tool that lets me use media keys in soundcloud and mixcloud etc. &lt;a href=&quot;http://beardedspice.com/&quot;&gt;Try it out here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;caffeine&lt;/strong&gt; to keep the screen from turning off during long running tasks.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;homebrew&lt;/strong&gt; Similar to mac ports. For installing things like imagemagick.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;imagemagick&lt;/strong&gt; dependency for some of my server software. Install with &lt;code&gt;brew install imagemagick&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Software&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.google.com/chrome/&quot;&gt;&lt;strong&gt;Google Chrome&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A fast, but memory hungry, web browser.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;&lt;strong&gt;Sublime Text 3&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A fast and extendable text editor.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;&lt;strong&gt;git&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A very good distributed version control system.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.macports.org/&quot;&gt;&lt;strong&gt;mac ports&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Tool for installing other software like nmap.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;rvm.io&quot;&gt;&lt;strong&gt;rvm&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Tool for managing and installing versions of Ruby.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;ruby-lang.org&quot;&gt;&lt;strong&gt;ruby&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Installed with rvm, eg. &lt;code&gt;rvm install 2.1&lt;/code&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.kekaosx.com/en/&quot;&gt;&lt;strong&gt;keka&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Archive utility that supports 7-zip. Quite fast as well.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;mega.co.nz&quot;&gt;&lt;strong&gt;MEGA sync&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Service similar to dropbox, but better privacy and more free storage.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;dropbox.com&quot;&gt;&lt;strong&gt;dropbox&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;I use it mainly to sync files from other people.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.iterm2.com/&quot;&gt;&lt;strong&gt;iterm2&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A very nice terminal with auto-complete, copy history and lots more more.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://spectacleapp.com/&quot;&gt;&lt;strong&gt;spectacle&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Small program that gives you keyboard shortcuts for managing your windows, like moving a window to left half of the screen.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;amp;id=ukelele&quot;&gt;&lt;strong&gt;ukelele&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Tool to manage and create custom keyboard layouts. &lt;a href=&quot;/keyboard/custom/tech/2015/05/22/nsiep.html&quot;&gt;Read about why I se this here&lt;/a&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;nodejs.org&quot;&gt;&lt;strong&gt;node.js&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A javascript framework for making awesome stuff, like web servers.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;slack.com&quot;&gt;&lt;strong&gt;slack&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A chat system like IRC, but with caching and much better branding. We use this in &lt;a href=&quot;https://konjekt.com&quot;&gt;Konjekt&lt;/a&gt; for communication.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;&lt;strong&gt;jdk&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;and jre 6 (java, which I need, mostly because of jave5.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://nmap.org/&quot;&gt;&lt;strong&gt;nmap&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;install with &lt;code&gt;sudo port install nmap&lt;/code&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;spotify.com&quot;&gt;&lt;strong&gt;spotify&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A music streamer. I tend to only use soundcloud and mixcloud, so I don’t know why I still have spotify.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;skype.com&quot;&gt;&lt;strong&gt;skype&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;The old school version of appear.in.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://beardedspice.com/&quot;&gt;&lt;strong&gt;bearded spice&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Awesome tool that lets me use media keys in soundcloud and mixcloud etc. If you are on a mac you got to &lt;a href=&quot;http://beardedspice.com/&quot;&gt;try it&lt;/a&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/caffeine/id411246225?mt=12&quot;&gt;&lt;strong&gt;caffeine&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A small program to keep the screen from turning off during long running tasks.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;brew.sh&quot;&gt;&lt;strong&gt;homebrew&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Similar to mac ports. For installing things like imagemagick. Install with &lt;code&gt;ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;&lt;/code&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;&lt;strong&gt;imagemagick&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;A CPU image processing library which is a dependency for some of my server software. Install with &lt;code&gt;brew install imagemagick&lt;/code&gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;After a long period of installation I started setting up things the way I like. One of the first things I did was to increase the “key repeat” to the maximum value. Yes, moving in terminal, backspacing long text etc. is much better now. I also reduced the “delay until repeat” to the lowest. Can’t we bothered with waiting for that stuff. A snappy keyboard is a happy Stephan.&lt;/p&gt;
 
