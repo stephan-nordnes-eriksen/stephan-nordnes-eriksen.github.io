@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Why most/every 'Uber for X' can't work"
+date:   2016-03-26 18:00
+categories: insight tech philosophy
+comments: True
+share: True
+---
+
+I keep seeing these "Uber for X" startups and ideas everywhere. "Uber for groceries", "Uber for parking", "Uber for movers". There is even a product hunt collection [Uber for X](https://www.producthunt.com/e/uber-for-x). In that list there is even an API that lets you create your very own Uber for X.
+
+What most/all of these companies, people, entrepreneurs, or whatever they want to call themselves, don't seem to understand is that Uber works so great for a very simple, but very important reason.
+
+Uber works because a driver delivering a person from A to B can then drive someone else from B to C. An Uber driver thus offers the same exact service from the place where the last ride ended. It is the perfect system for transportation.
+
+Now lets have a look at "Uber for Pizza". The person delivering the pizza starts his/her journey from A, a place with pizza. They drive to B to deliver the pizza to the customer. Now that person is without pizza. What to do for the next customer? The driver now have to get to a place C with pizza before they can deliver this pizza to a customer at place D. A-B-C-D. You see, this is one stop more than what Uber has to do. For Uber to serve two customers, they go from A-B-C. The Uber for Pizza service always need to stop by two places to serve 1 customer. A-B-C-D. 
+
+Uber scales perfectly. The number of stops is equal to 1 + the number of customers. Uber for X needs 1 + 2 * number of customers. 
+
+But wait, you might say. What if Uber for Pizza brings more than one pizza? Sure, they can bring more than one, but they will eventually need to stop to get more, and they need to keep it warm for a long time. 
+
+But wait again! Doesn't Uber drivers have to drive to the pick-up point for the next person? Yes, they do, but, it is always the closest driver who goes to the person. That is often a very small trip. This is especially true in large cities.
+
+The only way a "Uber for Pizza" would work is if you could make the pizza in the car as you were driving to the place which requested it. This makes it very impractical for normal people to join the system. Uber drivers just about need to download the app, but with this pizza-system you also need to have pizza ovens, and you need to make sure everyone knows how to make the pizza correctly and all that. 
+
+It simply won't work at scale. However, a pizza-creating pizza-delivery car/van with an app for ordering could work, but not at Uber scale. (PS. Someone please make this pizza car!)
+
+To round things off. The reason why most "Uber for X" can't work is that there is either more stops/travel that is needed, or more equipment and requirements from the users singing up as drivers. 
+
+That being said, there is probably some "Uber for X" ideas that could work well, but only if they have the same scalability as Uber and don't require any extra stops or skills from the drivers.
