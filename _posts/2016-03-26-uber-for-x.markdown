@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why most/every 'Uber for X' can't work"
-date:   2016-03-26 09:00
+date:   2016-03-26 01:00
 categories: insight tech philosophy
 comments: True
 share: True
