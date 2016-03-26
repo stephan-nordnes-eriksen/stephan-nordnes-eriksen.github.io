@@ -7,6 +7,8 @@ comments: True
 share: True
 ---
 
+![Stephan on Uber for X](/assets/stephan_on_uber_for_x.png)
+
 I keep seeing these "Uber for X" startups and ideas everywhere. "Uber for groceries", "Uber for parking", "Uber for movers". There is even a product hunt collection [Uber for X](https://www.producthunt.com/e/uber-for-x). In that list there is even an API that lets you create your very own Uber for X.
 
 What most/all of these companies, people, entrepreneurs, or whatever they want to call themselves, don't seem to understand is that Uber works so great for a very simple, but very important reason.
